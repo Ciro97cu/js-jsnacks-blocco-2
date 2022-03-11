@@ -8,7 +8,7 @@ const numberList = [1, 2, 3, 4, 5, 6, 7, 20, 4, 33, 50];
 let sumOddNumebrs = 0;
 for (let i = 0; i < numberList.length; i++) {
     // condition to select only numbers in odd positions
-    if (i % 2 === 0) {
+    if (i % 2 !== 0) {
         sumOddNumebrs += numberList[i];
     }
 }
