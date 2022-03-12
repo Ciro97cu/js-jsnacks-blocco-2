@@ -14,3 +14,21 @@ for (let i = 0; i < numberList.length; i++) {
 }
 // console log of the sum of our numbers in odd positions
 console.log(sumOddNumebrs);
+
+
+/* alternative with an increment of the variable "i" by 2 and starting from 1,
+in order to remove the if condition inside the loop for
+
+// array list of number
+const numberList = [1, 2, 3, 4, 5, 6, 7];
+
+// declared variable used to make the sum
+let sumOddNumebrs = 0;
+for (let i = 1; i < numberList.length; i += 2) {
+
+    sumOddNumebrs += numberList[i];
+
+}
+// console log of the sum of our numbers in odd positions
+console.log(sumOddNumebrs);
+*/
